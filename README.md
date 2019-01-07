@@ -1,6 +1,8 @@
 About atomicwrites
 ==================
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://github.com/untitaker/python-atomicwrites
 
 Package license: MIT
@@ -14,8 +16,10 @@ Summary: Atomic file writes
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/atomicwrites-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/atomicwrites-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/atomicwrites-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/atomicwrites-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/atomicwrites-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/atomicwrites-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/atomicwrites-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/atomicwrites-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c32ce7b87b5930700c33961/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/atomicwrites-feedstock)
 
 Current release info
 ====================
@@ -103,3 +107,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@nicoddemus](https://github.com/nicoddemus/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+* [@tadeu](https://github.com/tadeu/)
+
